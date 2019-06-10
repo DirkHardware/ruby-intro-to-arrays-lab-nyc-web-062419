@@ -17,3 +17,11 @@ end
 def third_element(array = [1,2,3])
   array[-1]
 end
+
+def first_element_with_array_methods(array = [1,2,3])
+  array.first
+end
+
+def last_element_with_array_methods(array = [1,2,3])
+  array.last
+end 
